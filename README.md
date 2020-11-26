@@ -25,3 +25,8 @@ https://stackoverflow.com/questions/26435689/how-to-use-re-compile-with-class-in
 8.  https://www.geeksforgeeks.org/pagination-using-scrapy-web-scrapping-with-python/
 9.  https://stackoverflow.com/questions/16127692/how-can-i-fetch-img-src-attribute-by-scrapy
 10. https://stackoverflow.com/questions/28174557/scrapy-xpath-select-elements-by-classname
+
+
+## note:
+1. some times you need do more than web scraping to scrap data (hard_work.py) (15 working hours for clear result 0errors)
+https://www.odcec.lecco.it/www.odcec.lecco.it/archivio.html
