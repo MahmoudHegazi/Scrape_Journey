@@ -35,3 +35,22 @@ https://stackoverflow.com/questions/26435689/how-to-use-re-compile-with-class-in
 ## note:
 1. some times you need do more than web scraping to scrap data (hard_work.py) (15 working hours for clear result 0errors)
 https://www.odcec.lecco.it/www.odcec.lecco.it/archivio.html
+
+
+
+#  Excel Experince
+
+https://www.geeksforgeeks.org/reading-excel-file-using-python/
+"""
+# Program extracting first column
+import xlrd
+
+loc = ("path of file")
+
+wb = xlrd.open_workbook(loc)
+sheet = wb.sheet_by_index(0)
+sheet.cell_value(0, 0)
+
+for i in range(sheet.nrows):
+	print(sheet.cell_value(i, 0))
+"""
